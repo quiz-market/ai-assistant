@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "scheduler": {
+      "command": "node",
+      "args": [
+        "path/to/scheduler/build/index.js"
+      ],
+      "env": {
+        "CREDENTIALS_PATH": "path/to/scheduler/credentials.json",
+        "TOKEN_PATH": "path/to/scheduler/token.json"
+      }
+    }
+  }
+}

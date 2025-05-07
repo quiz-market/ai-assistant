@@ -1,0 +1,13 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+# タスクスケジューリングルール
+
+- スケジューリングする前に、 date コマンドで現在時刻を取得する
+- タスクに着手できる時間帯は 10:00~19:00 です。
+- タスクの工数は「小（2時間）」から「大（8時間）」を目安に割り当ててください。
+- タスクを設定可能な曜日は「月火水土日」です。
+- スケジューリング時は、[createCalenderEvent.ts](mdc:scheduler/src/tools/createCalenderEvent.ts) を参照してGoogleカレンダーに予定を登録してください。
+

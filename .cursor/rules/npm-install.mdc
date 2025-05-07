@@ -1,0 +1,17 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# npm install 実行ルール
+
+依存パッケージのインストールや更新が必要な場合は、必ずプロジェクトのルートディレクトリで `npm install` を実行してください。
+
+- ルートディレクトリとは、`package.json` ファイルが存在するディレクトリです。
+- サブディレクトリ（例: `scheduler/`）に `package.json` が存在する場合は、そのディレクトリで `npm install` を実行してください。
+
+例:
+- ルート: `/Users/ymdkit/Projects/ai-assistant/`
+- サブ: `/Users/ymdkit/Projects/ai-assistant/scheduler/`
+
+それぞれの `package.json` のある場所で `npm install` を実行すること。
